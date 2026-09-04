@@ -1,0 +1,28 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class SupportSystem {
+' instance fields with access modifiers (here private)
+' with return types (InputReader, Responder)
+- inputreader : InputReader
+- responder: Responder
++ start() : void
+- printWelcome(): void
+- printGoodbye(): void
+}
+
+
+
+
+class Responder {
++ generateResponse() : String
+}
+class InputReader {
+- reader : Scanner
++ getInput() : String
+}
+
+SupportSystem --> Responder : use
+SupportSystem --> InputReader : use
+
+@enduml
