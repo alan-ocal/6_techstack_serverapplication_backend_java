@@ -1,8 +1,5 @@
-# BISMILLAH - 17
-
 <!-- TOC -->
 
-* [BISMILLAH](#bismillah)
 * [introduction](#introduction)
 * [running](#running)
 * [references](#references)
